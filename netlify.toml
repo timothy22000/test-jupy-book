@@ -1,5 +1,5 @@
 [build]
-  base = "_build"
+  base = "."
   command = "pip install -r requirements.txt && jupyter-book build ."
   publish = "./_build/html"
 
@@ -13,9 +13,9 @@ fi
 '''
 
 # A redirect rule with all the supported properties
-[[redirects]]
-  from = "https://62ab5c8a19bcdd00840a6f7b--gentle-moonbeam-f3167d.netlify.app"
-  to = "https://62ab5c8a19bcdd00840a6f7b--gentle-moonbeam-f3167d.netlify.app/welcome"
-  # The default HTTP status code is 301, but you can define a different one.
-  status = 301
-  force = true
+# [[redirects]]
+#   from = "https://gentle-moonbeam-f3167d.netlify.app"
+#   to = "https://gentle-moonbeam-f3167d.netlify.app/index"
+#   # The default HTTP status code is 301, but you can define a different one.
+#   status = 301
+#   force = true
